@@ -1,0 +1,10 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  position: relative; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=estilos.css.map */
