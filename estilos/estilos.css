@@ -13,9 +13,20 @@ body {
   text-align: center;
   background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
   background-size: 16px 16px;
-  background-color: gray;
+  background-color: black;
   background-attachment: fixed;
   height: 100vh;
   width: 100%; }
+  .hero-bg .presentacion {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%; }
+  .hero-bg .nombre {
+    margin: 0;
+    font-size: calc(20px + 18vh);
+    line-height: calc(20px + 20vh);
+    line-height: 1.6em;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    animation: glow 1s ease-in-out infinite alternate; }
 
 /*# sourceMappingURL=estilos.css.map */
