@@ -55,4 +55,10 @@ body {
     font-weight: 400;
     letter-spacing: 2px; }
 
+/* Sobre Mi */
+.sobreMi {
+  padding: 50px 0;
+  background: #38405f;
+  height: 80vh; }
+
 /*# sourceMappingURL=estilos.css.map */
