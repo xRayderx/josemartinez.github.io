@@ -57,8 +57,10 @@ body {
 
 /* Sobre Mi */
 .sobreMi {
-  padding: 50px 0;
-  background: #38405f;
-  height: 80vh; }
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #38405f 0%, rgba(56, 64, 95, 0.9) 75%, rgba(56, 64, 95, 0.8) 100%); }
+
+p {
+  margin-bottom: 5rem; }
 
 /*# sourceMappingURL=estilos.css.map */
