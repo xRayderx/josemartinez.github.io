@@ -63,4 +63,16 @@ body {
 p {
   margin-bottom: 5rem; }
 
+/* Habilidades */
+.habilidades {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background: #38405f; }
+  .habilidades .conocimiento h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #8b939c; }
+  .habilidades .icono img {
+    background-size: 16px; }
+
 /*# sourceMappingURL=estilos.css.map */
