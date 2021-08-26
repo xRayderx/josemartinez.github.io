@@ -87,9 +87,11 @@ p {
     color: #FFFFFF;
     text-transform: uppercase; }
   .portafolio .port_divisor {
-    width: 400px;
-    border-top: 1px solid #61892F;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+    margin: 1.25rem 0 1.5rem;
+    width: 100%; }
+    .portafolio .port_divisor .div_item {
+      border-top: 1px solid #61892F;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
   .portafolio .portafolio-item {
     display: block;
     max-width: 25rem;
