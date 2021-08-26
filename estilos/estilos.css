@@ -9,7 +9,7 @@ body {
 
 /* Navegacion */
 .navbar {
-  background: #D00931;
+  background: #61892F;
   box-shadow: 0 1px 0.4rem; }
   .navbar .navbar-nav {
     margin-left: auto; }
@@ -26,7 +26,7 @@ body {
   text-align: center;
   background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
   background-size: 16px 16px;
-  background-color: #E0E0DF;
+  background-color: #222629;
   background-attachment: fixed;
   height: 100vh;
   width: 100%; }
@@ -58,7 +58,7 @@ body {
 /* Sobre Mi */
 .sobreMi {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #E0E0DF 0%, rgba(224, 224, 223, 0.9) 75%, rgba(224, 224, 223, 0.8) 100%); }
+  background: linear-gradient(to bottom, #222629 0%, rgba(224, 224, 223, 0.9) 75%, rgba(224, 224, 223, 0.8) 100%); }
 
 p {
   margin-bottom: 5rem; }
@@ -67,11 +67,11 @@ p {
 .habilidades {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
-  background: #E0E0DF; }
+  background: linear-gradient(rgba(224, 224, 223, 0.8)); }
   .habilidades .conocimiento h2 {
     font-size: 3rem;
     text-transform: uppercase;
-    color: #9E0E25; }
+    color: #474B4F; }
   .habilidades .icono img {
     background-size: 16px; }
 
