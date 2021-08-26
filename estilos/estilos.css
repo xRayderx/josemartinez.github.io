@@ -79,6 +79,7 @@ p {
 
 /* Portfolio */
 .portafolio {
+  background: #222629;
   padding: 6rem 0; }
   .portafolio .portafolio-titulo {
     font-size: 2.25rem;
