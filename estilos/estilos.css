@@ -122,7 +122,8 @@ p {
       border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
   .contacto .main_form {
     padding: 50px 50px;
-    background: #86C232; }
+    background: #222629;
+    border-color: #86C232; }
     .contacto .main_form .campo {
       padding: 0px 20px;
       margin-bottom: 20px;
@@ -131,5 +132,20 @@ p {
       background: #474B4F;
       color: #FFFFFF;
       font-size: 17px; }
+    .contacto .main_form .btn_enviar {
+      font-size: 17px;
+      background: #86C232;
+      color: #474B4F;
+      padding: 13px 0px;
+      margin: 0 auto;
+      display: block;
+      margin-top: 30px;
+      max-width: 200px;
+      text-transform: uppercase;
+      width: 100%;
+      transition: ease-in all 0.5s; }
+      .contacto .main_form .btn_enviar:hover {
+        background: #61892F;
+        color: #FFFFFF; }
 
 /*# sourceMappingURL=estilos.css.map */
