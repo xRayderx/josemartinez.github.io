@@ -131,6 +131,14 @@ p {
       height: 60px;
       background: #474B4F;
       color: #FFFFFF;
+      font-size: 17px;
+      border: 0; }
+    .contacto .main_form .textarea {
+      border: 0;
+      padding: 11px 19px;
+      width: 100%;
+      background: #474B4F;
+      color: #FFFFFF;
       font-size: 17px; }
     .contacto .main_form .btn_enviar {
       font-size: 17px;
@@ -143,9 +151,12 @@ p {
       max-width: 200px;
       text-transform: uppercase;
       width: 100%;
+      border: 0;
+      cursor: pointer;
       transition: ease-in all 0.5s; }
       .contacto .main_form .btn_enviar:hover {
         background: #61892F;
-        color: #FFFFFF; }
+        color: #FFFFFF;
+        border-radius: 30px; }
 
 /*# sourceMappingURL=estilos.css.map */
