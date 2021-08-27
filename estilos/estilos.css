@@ -131,9 +131,9 @@ p {
       background: #474B4F;
       color: #FFFFFF;
       font-size: 17px;
-      border: #86C232; }
+      border-color: #86C232; }
     .contacto .main_form .textarea {
-      border: #86C232;
+      border-color: #86C232;
       padding: 11px 19px;
       width: 100%;
       background: #474B4F;
