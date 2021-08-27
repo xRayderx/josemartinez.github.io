@@ -122,8 +122,7 @@ p {
       border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
   .contacto .main_form {
     padding: 50px 50px;
-    background: #222629;
-    border-color: #86C232; }
+    background: #222629; }
     .contacto .main_form .campo {
       padding: 0px 20px;
       margin-bottom: 20px;
@@ -132,9 +131,9 @@ p {
       background: #474B4F;
       color: #FFFFFF;
       font-size: 17px;
-      border: 0; }
+      border: #86C232; }
     .contacto .main_form .textarea {
-      border: 0;
+      border: #86C232;
       padding: 11px 19px;
       width: 100%;
       background: #474B4F;
