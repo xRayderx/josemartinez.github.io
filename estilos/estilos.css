@@ -9,15 +9,24 @@ body {
 
 /* Navegacion */
 .navbar {
-  background: #61892F;
+  background: transparent;
   box-shadow: 0 1px 0.4rem; }
+  .navbar .img-logo {
+    height: 50px;
+    width: 80px; }
   .navbar .navbar-nav {
     margin-left: auto; }
   .navbar .nav-item {
     padding: 0px 10px; }
   .navbar .nav-link {
     color: #FFFFFF;
-    font-weight: 800; }
+    text-transform: uppercase;
+    font-weight: 800;
+    background: linear-gradient(currentColor 0 0) 0 100%/var(--d, 0) 3px no-repeat;
+    transition: 0.4s; }
+    .navbar .nav-link:hover {
+      color: #474B4F;
+      --d: 100%; }
 
 /* Presentacion */
 .hero-bg {
