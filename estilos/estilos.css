@@ -114,25 +114,24 @@ p {
   padding: 90px 0;
   background: #222629; }
   .contacto .contact-title {
-    text-align: center;
-    padding-bottom: 60px; }
+    text-align: center; }
     .contacto .contact-title h2 {
-      padding-bottom: 10px;
       color: #FFFFFF;
-      font-size: 40px;
+      font-size: 2.5rem;
       line-height: 40px;
       font-weight: 600;
       text-transform: uppercase; }
   .contacto .port_divisor {
-    margin: 1.25rem 0 1.5rem;
     width: 100%; }
     .contacto .port_divisor .div_item {
       border-top: 1px solid #61892F;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      max-width: 350px; }
   .contacto .main_form {
     padding: 50px 50px;
     background: #474B4F;
-    border-radius: 5px; }
+    border-radius: 5px;
+    margin-top: 10px; }
     .contacto .main_form .campo {
       padding: 0px 20px;
       margin-bottom: 20px;
@@ -163,7 +162,7 @@ p {
       border: 0;
       border-radius: 10px;
       cursor: pointer;
-      transition: ease-in all 0.5s; }
+      transition: ease-in all 0.4s; }
       .contacto .main_form .btn_enviar:hover {
         background: #61892F;
         color: #FFFFFF;
