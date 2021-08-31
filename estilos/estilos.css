@@ -177,5 +177,23 @@ p {
         border-radius: 30px; }
 
 /* Pie de pagina */
+.portFooter {
+  background: #61892F;
+  padding: 20px 0px;
+  width: 100%; }
+  .portFooter .copy {
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-transform: uppercase; }
+  .portFooter .img-icono {
+    float: left;
+    margin-right: 5px; }
+    .portFooter .img-icono img {
+      border-radius: 50%;
+      font-size: 16px;
+      transition: all 0.3s ease-in-out; }
+      .portFooter .img-icono img:hover {
+        cursor: pointer;
+        transform: rotate(360deg); }
 
 /*# sourceMappingURL=estilos.css.map */
