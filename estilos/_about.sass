@@ -2,8 +2,17 @@
 
 .sobreMi
 	padding-top: 10rem
-	background: linear-gradient(to bottom, $fondo 0%, rgba(224, 224, 223, .9) 75%, rgba(224, 224, 223, .8) 100%)
+	background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px
+	background-size: 16px 16px
+	background-color: $fondo
+	background-attachment: fixed
+
+	.descripcion
+		color: $textoClaro
+		opacity: .9
 
 p 
 	margin-bottom: 5rem
+	color: $textoClaro
+	opacity: .8
 
