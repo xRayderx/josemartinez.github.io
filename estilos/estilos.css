@@ -178,13 +178,14 @@ p {
 
 /* Pie de pagina */
 .portFooter {
-  background: #61892F;
+  background: #6B6E70;
   padding: 20px 0px;
   width: 100%; }
   .portFooter .copy {
     color: #FFFFFF;
     opacity: 0.8;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: 700; }
   .portFooter .rrss a {
     display: inline-block;
     width: 40px;
