@@ -106,8 +106,11 @@ p {
 
 /* Portfolio */
 .portafolio {
-  background: #222629;
-  padding: 6rem 0; }
+  padding: 6rem 0;
+  background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-size: 16px 16px;
+  background-color: #222629;
+  background-attachment: fixed; }
   .portafolio .portafolio-titulo {
     font-size: 2.5rem;
     line-height: 2rem;
