@@ -185,15 +185,17 @@ p {
     color: #FFFFFF;
     opacity: 0.8;
     text-transform: uppercase; }
-  .portFooter .img-icono {
-    float: left;
+  .portFooter .rrss a {
+    display: inline-block;
+    width: 40px;
     margin-right: 5px; }
-    .portFooter .img-icono img {
+    .portFooter .rrss a img {
       border-radius: 50%;
       font-size: 16px;
       transition: all 0.3s ease-in-out; }
-      .portFooter .img-icono img:hover {
+      .portFooter .rrss a img:hover {
         cursor: pointer;
-        transform: rotate(360deg); }
+        transform: rotate(360deg);
+        opacity: 0.8; }
 
 /*# sourceMappingURL=estilos.css.map */
