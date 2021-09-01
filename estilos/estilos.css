@@ -9,7 +9,7 @@ body {
 
 /* Navegacion */
 .navbar {
-  background: transparent;
+  background: #61892F;
   box-shadow: 0 1px 0.4rem; }
   .navbar .img-logo {
     height: 50px;
