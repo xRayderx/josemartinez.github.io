@@ -59,24 +59,13 @@ body {
     padding-bottom: 20%; }
   .hero-bg .nombre {
     margin: 0;
-    font-size: 6em;
-    line-height: calc(20px + 20vh);
+    font-size: 10vw;
     line-height: 1.6em;
-    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    animation: glow 1s ease-in-out infinite alternate; }
-  .hero-bg .divisor {
-    width: 400px;
-    border-top: 1px solid #c0c0c0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
-  .hero-bg li {
-    display: inline-block;
-    padding-right: 5px;
-    padding-left: 5px; }
-  .hero-bg .rrss-name {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000; }
+  .hero-bg .subtitulo {
+    color: #FFFFFF;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px; }
+    opacity: 0.8; }
 
 /* Sobre Mi */
 .sobreMi {
