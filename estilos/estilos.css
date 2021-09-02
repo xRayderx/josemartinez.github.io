@@ -1,80 +1,224 @@
-/*
-Error: Invalid CSS after "font-family": expected expression (e.g. 1px, bold), was ": "Lucida Console""
-        on line 12 of _variables.sass
-        from line 12 of estilos.sass
+html {
+  scroll-behavior: smooth; }
 
-7: // Texto 
-8: 
-9: $textoOscuro: #474B4F
-10: $textoClaro: #FFFFFF
-11: 
-12: $font: font-family: "Lucida Console"
-13: 
-14: // Fondos 
-15: 
-16: $fondo: #222629
-17: 
+body {
+  position: relative; }
 
-Backtrace:
-_variables.sass:12
-estilos.sass:12
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/script/lexer.rb:240:in `expected!'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/script/parser.rb:897:in `assert_done'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/script/parser.rb:69:in `parse'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/script/parser.rb:228:in `parse'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/script.rb:27:in `parse'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:1169:in `parse_script'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:779:in `parse_variable'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:650:in `parse_line'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:539:in `build_tree'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:558:in `block in append_children'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `each'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `append_children'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:417:in `_to_tree'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby30/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"font-family\": expected expression (e.g. 1px, bold), was \": \"Lucida Console\"\"\A         on line 12 of _variables.sass\A         from line 12 of estilos.sass\A \A 7: // Texto \A 8: \A 9: $textoOscuro: #474B4F\A 10: $textoClaro: #FFFFFF\A 11: \A 12: $font: font-family: \"Lucida Console\"\A 13: \A 14: // Fondos \A 15: \A 16: $fondo: #222629\A 17: "; }
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+/* Barra de scroll */
+::-webkit-scrollbar {
+  width: 5px; }
+
+::-webkit-scrollbar-track {
+  background: #222629;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #86C232;
+  border-radius: 5px; }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #61892F; }
+
+/* Navegacion */
+.navbar {
+  background: #61892F;
+  box-shadow: 0 1px 0.4rem; }
+  .navbar .img-logo {
+    height: 50px;
+    width: 80px; }
+  .navbar .navbar-nav {
+    margin-left: auto; }
+  .navbar .nav-item {
+    padding: 0px 10px; }
+  .navbar .nav-link {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: linear-gradient(currentColor 0 0) 0 100%/var(--d, 0) 3px no-repeat;
+    transition: 0.4s; }
+    .navbar .nav-link:hover {
+      color: #474B4F;
+      --d: 100%; }
+
+/* Presentacion */
+.hero-bg {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-size: 16px 16px;
+  background-color: #222629;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%; }
+  .hero-bg .presentacion {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%; }
+  .hero-bg .nombre {
+    margin: 0;
+    font-size: 10vw;
+    font-family: "Lucida Console";
+    line-height: 1.6em;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000; }
+  .hero-bg .subtitulo {
+    color: #FFFFFF;
+    font-family: "Lucida Console";
+    text-transform: uppercase;
+    opacity: 0.8; }
+
+/* Sobre Mi */
+.sobreMi {
+  padding-top: 10rem;
+  background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-size: 16px 16px;
+  background-color: #222629;
+  background-attachment: fixed; }
+  .sobreMi .descripcion {
+    color: #FFFFFF;
+    opacity: 0.9; }
+
+p {
+  margin-bottom: 5rem;
+  color: #FFFFFF;
+  opacity: 0.8; }
+
+/* Habilidades */
+.habilidades {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-size: 16px 16px;
+  background-color: #222629;
+  background-attachment: fixed; }
+  .habilidades .conocimiento h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .habilidades .port_divisor {
+    width: 100%; }
+    .habilidades .port_divisor .div_item {
+      border-top: 1px solid #61892F;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      max-width: 350px; }
+  .habilidades .icono img {
+    background-size: 16px; }
+    .habilidades .icono img:hover {
+      opacity: 0.7;
+      transform: scale(1.1); }
+
+/* Portfolio */
+.portafolio {
+  padding: 6rem 0;
+  background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-size: 16px 16px;
+  background-color: #222629;
+  background-attachment: fixed; }
+  .portafolio .portafolio-titulo {
+    font-size: 2.5rem;
+    line-height: 2rem;
+    color: #FFFFFF;
+    text-transform: uppercase; }
+  .portafolio .port_divisor {
+    width: 100%; }
+    .portafolio .port_divisor .div_item {
+      border-top: 1px solid #61892F;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      max-width: 350px;
+      margin-bottom: 30px; }
+  .portafolio .portafolio-item {
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; }
+
+/* Contacto */
+.contacto {
+  padding: 90px 0;
+  background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-size: 16px 16px;
+  background-color: #222629;
+  background-attachment: fixed; }
+  .contacto .contact-title {
+    text-align: center; }
+    .contacto .contact-title h2 {
+      color: #FFFFFF;
+      font-size: 2.5rem;
+      line-height: 40px;
+      font-weight: 600;
+      text-transform: uppercase; }
+  .contacto .port_divisor {
+    width: 100%; }
+    .contacto .port_divisor .div_item {
+      border-top: 1px solid #61892F;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      max-width: 350px; }
+  .contacto .main_form {
+    padding: 50px 50px;
+    background: #474B4F;
+    border-radius: 5px;
+    margin-top: 10px; }
+    .contacto .main_form .campo {
+      padding: 0px 20px;
+      margin-bottom: 20px;
+      width: 100%;
+      height: 60px;
+      background: #222629;
+      color: #FFFFFF;
+      font-size: 17px;
+      border-color: #86C232; }
+    .contacto .main_form .textarea {
+      border-color: #86C232;
+      padding: 11px 19px;
+      width: 100%;
+      background: #222629;
+      color: #FFFFFF;
+      font-size: 17px; }
+    .contacto .main_form .btn_enviar {
+      font-size: 17px;
+      background: #86C232;
+      color: #474B4F;
+      padding: 13px 0px;
+      margin: 0 auto;
+      display: block;
+      margin-top: 30px;
+      max-width: 200px;
+      text-transform: uppercase;
+      width: 100%;
+      border: 0;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: ease-in all 0.4s; }
+      .contacto .main_form .btn_enviar:hover {
+        background: #61892F;
+        color: #FFFFFF;
+        border-radius: 30px; }
+
+/* Pie de pagina */
+.portFooter {
+  background: #6B6E70;
+  padding: 20px 0px;
+  width: 100%; }
+  .portFooter .copy {
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-weight: 700; }
+  .portFooter .rrss a {
+    display: inline-block;
+    width: 40px;
+    margin-right: 5px; }
+    .portFooter .rrss a img {
+      border-radius: 50%;
+      font-size: 16px;
+      transition: all 0.3s ease-in-out; }
+      .portFooter .rrss a img:hover {
+        cursor: pointer;
+        transform: rotate(360deg);
+        opacity: 0.8; }
+
+/*# sourceMappingURL=estilos.css.map */
