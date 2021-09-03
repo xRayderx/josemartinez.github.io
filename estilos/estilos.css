@@ -201,13 +201,22 @@ p {
 /* Pie de pagina */
 .portFooter {
   background: #6B6E70;
-  padding: 20px 0px;
+  padding: 2rem;
   width: 100%; }
   .portFooter .copy {
     color: #FFFFFF;
     opacity: 0.8;
     text-transform: uppercase;
-    font-weight: 700; }
+    font-weight: 600;
+    font-family: "Lucida Console"; }
+  .portFooter .location {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Lucida Console"; }
+  .portFooter .lead {
+    color: #FFFFFF;
+    font-family: "Lucida Console"; }
   .portFooter .rrss a {
     display: inline-block;
     width: 40px;
