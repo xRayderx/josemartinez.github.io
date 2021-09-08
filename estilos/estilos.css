@@ -237,4 +237,20 @@ p {
         transform: rotate(360deg);
         opacity: 0.8; }
 
+/* Modal */
+.portfolio-modal .cerrar {
+  padding: 1rem;
+  margin-left: auto;
+  background: transparent;
+  color: #86C232;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer; }
+.portfolio-modal .portfolio-modal-title {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  font-family: "Lucida Console";
+  text-transform: uppercase;
+  color: #474B4F; }
+
 /*# sourceMappingURL=estilos.css.map */
