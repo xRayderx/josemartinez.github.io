@@ -252,5 +252,23 @@ p {
   font-family: "Lucida Console";
   text-transform: uppercase;
   color: #474B4F; }
+.portfolio-modal .texto {
+  font-family: "Lucida Console";
+  color: #474B4F; }
+.portfolio-modal .boton {
+  background: #86C232;
+  color: #222629;
+  border-color: #86C232;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-family: "Lucida Console";
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0 1rem;
+  transition: ease-in-out 0.25s; }
+  .portfolio-modal .boton:hover {
+    color: #FFFFFF;
+    background: #61892F;
+    border-color: #61892F; }
 
 /*# sourceMappingURL=estilos.css.map */
