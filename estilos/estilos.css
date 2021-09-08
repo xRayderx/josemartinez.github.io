@@ -39,7 +39,7 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     background: linear-gradient(currentColor 0 0) 0 100%/var(--d, 0) 3px no-repeat;
-    transition: 0.4s; }
+    transition: 0.25s; }
     .navbar .nav-link:hover {
       color: #474B4F;
       --d: 100%; }
@@ -199,7 +199,7 @@ p {
       border: 0;
       border-radius: 10px;
       cursor: pointer;
-      transition: ease-in all 0.4s; }
+      transition: ease-in all 0.25s; }
       .contacto .main_form .btn_enviar:hover {
         background: #61892F;
         color: #FFFFFF;
@@ -231,7 +231,7 @@ p {
     .portFooter .rrss a img {
       border-radius: 50%;
       font-size: 16px;
-      transition: all 0.3s ease-in-out; }
+      transition: all 0.25s ease-in-out; }
       .portFooter .rrss a img:hover {
         cursor: pointer;
         transform: rotate(360deg);
